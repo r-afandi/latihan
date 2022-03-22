@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>latihan js</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      console.log("latihan js");// menampilkan tulisan di F12
+      document.write("HALO");//menampilkan tulisan di web
+    </script>
+    <a href="javascript:alert('nopo?')">klik</a><!--menampilkan js inline-->
+    <script type="text/javascript" src="cbjs.js">
+    </script>
+  </script>
+  <button onClick="alert('nopo?')">klik</button><!--menampilkan js inline-->
+    <!--variable-->
+    <script type="text/javascript">
+      var title= "sikdesa";
+      var siteName = "sikdesa | Beranda";
+      var url = "https://sikdesa.my.id";
+      var visitor_count = 1234;
+      //penamaan var disesuaikan dengan pemahaman kelompok, bisa menggunakan cemalcase atau underscore. tetapi mayoritas cemal case.
+    </script>
+    <script type="text/javascript">
+      let price = 15000;
+      stok = 12;
+    </script>
+    <!--menampilkan isi variable-->
+<script type="text/javascript"> //membuat fungsi dengan biasa
+  fungtion namaFungsi(){ // error text= Uncaught SyntaxError: unexpected token: identifier;
+    console.log("Hello World");
+  }
+</script>
+<script type="text/javascript"> //membuat fungsi dengan ekspresi
+  var namaFungsi= fungtion(){ // error text= Uncaught SyntaxError: unexpected token: '{';
+    console.log("Hello World ");
+  }
+</script>
+<script type="text/javascript"> //membuat fungsi dengan tanda panah
+  var namaFungsi = () => {
+    console.log("Hello World");
+  }
+  // atau seperti ini (jika isi fungsi hanya satu baris):
+  var namaFungsi = () => console.log("Hello World");
+</script>
+<script type="text/javascript"> //membuat Fungsi dengan Kostruktor
+  var namaFungsi = new Fungtion ('console.log("Hello World");')
+</script>
+  </body>
+</html>
